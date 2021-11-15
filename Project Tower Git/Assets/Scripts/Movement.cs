@@ -73,7 +73,7 @@ public class Movement : MonoBehaviour
 
             if (isTouchingFront && !isGrounded && move != 0)
             {
-                if (climbSpeed > 0)
+                if (climbSpeed > 0 && rb.velocity.y > 0) //---------------------------------WALL CLIMB------------------------
                 {
                     rb.velocity = Vector2.up * climbSpeed;
                 }
@@ -115,7 +115,8 @@ public class Movement : MonoBehaviour
         if (!PlayerHealth.death)
         {
             move = Input.GetAxis("Horizontal");
-            rb.velocity = new Vector2(move * speed, rb.velocity.y);
+            if (isGrounded)
+                rb.velocity = new Vector2(move * speed, rb.velocity.y);
         }
     }
 

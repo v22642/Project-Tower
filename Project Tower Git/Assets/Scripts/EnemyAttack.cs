@@ -28,7 +28,7 @@ public class EnemyAttack : MonoBehaviour
 
     IEnumerator setDamage(Collider2D other)
     {
-        while (true)
+        while (true && !PlayerHealth.death)
         {
             other.transform.parent.GetComponent<PlayerHealth>().takeDamage(damage);
             other.transform.parent.GetComponent<Rigidbody2D>().AddForce(Vector2.left * punchForce, ForceMode2D.Impulse);
