@@ -10,14 +10,13 @@ public class CameraFollow : MonoBehaviour
 	public GameObject target;
 	public Vector3 offset;
 	Vector3 targetPos;
-	// Use this for initialization
+
 	void Start()
 	{
 		targetPos = transform.position;
 	}
 
-	// Update is called once per frame
-	void FixedUpdate()
+    void FixedUpdate()
 	{
 		if (target)
 		{

@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c33dd97516791d40abbb30724e3e9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   force: 7
   forceTorque: 30
   player: {fileID: 4250315656858568675}
