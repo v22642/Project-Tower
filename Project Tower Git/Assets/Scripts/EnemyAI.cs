@@ -7,7 +7,7 @@ public class EnemyAI : MonoBehaviour
 
     public float speed = 200f;
     public float nextWaypointDistance = 1f;
-    public Transform enemyGFX;
+    //public Transform enemyGFX;
 
     Path path;
     int currentWaypoint = 0;
@@ -28,6 +28,10 @@ public class EnemyAI : MonoBehaviour
     {
         if(seeker.IsDone())
             seeker.StartPath(rb.position, target.position, OnPathComplete);
+        //else if(seeker.IsDone() && PlayerHealth.death)
+        //{
+        //    seeker.StartPath(rb.position,)
+        //}
     }
 
     void OnPathComplete(Path p)
@@ -68,11 +72,11 @@ public class EnemyAI : MonoBehaviour
 
         if (force.x >= 0.01f)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(4f, 4f, 1f);
         }
         if (force.x <= -0.01f)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            transform.localScale = new Vector3(-4f, 4f, 1f);
         }
     }
 }

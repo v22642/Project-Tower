@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 1770087566}
   - component: {fileID: 1770087568}
   - component: {fileID: 1770087567}
+  - component: {fileID: 1219163498}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -56,7 +57,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770087565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.001, y: -0.047, z: 0}
+  m_LocalPosition: {x: 0, y: -0.047, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children:
   - {fileID: 1539786596}
@@ -126,6 +127,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99614c3a5df419f469767d57dfd5a53e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1219163498
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770087565}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ef93d65cbad483049919a14902d52521, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4250315656858568675
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,6 +162,7 @@ GameObject:
   - component: {fileID: 8238837141384750804}
   - component: {fileID: 1283908173}
   - component: {fileID: 1944040557}
+  - component: {fileID: 1944040556}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -277,7 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c33dd97516791d40abbb30724e3e9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 3
   force: 7
   forceTorque: 30
   player: {fileID: 4250315656858568675}
@@ -297,8 +318,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 4250315656858568687}
-  moveSpeed: 10
-  runSpeed: 13
+  moveSpeed: 8
+  runSpeed: 9
   jumpForce: 15
   groundCheck: {fileID: 4250315657616668144}
   groundLayer:
@@ -336,6 +357,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2353391001576831851, guid: f59bcb1c23355cf41bdcc7173a6d9453, type: 3}
   firePoint: {fileID: 1539786596}
+  shootDelay: 0.35
+--- !u!114 &1944040556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250315656858568675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b1835514c93504c9617f6bb3e05444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowMotionDuration: 5
 --- !u!1 &4250315657616668151
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4250315658448728972
 Transform:
   m_ObjectHideFlags: 0

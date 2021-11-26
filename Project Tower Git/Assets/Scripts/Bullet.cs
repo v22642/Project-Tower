@@ -3,7 +3,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float bulletSpeed = 10f;
-    public float bulletDamage = 1f;
+    public int bulletDamage = 1;
 
     //public Color damageColor;
 

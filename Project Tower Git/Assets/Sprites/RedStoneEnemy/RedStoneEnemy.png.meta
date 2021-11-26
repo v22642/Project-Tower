@@ -1,28 +1,40 @@
 fileFormatVersion: 2
-guid: bd3801562860de344baaf77fa41cc4aa
+guid: 51107a4dd60c606408739e2836c277d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6879118450950661895
-    second: Gun_0
+      213: -3318056986799921890
+    second: RedStoneEnemy_0
   - first:
-      213: -1898065178660533048
-    second: Gun_1
+      213: 3986787958889530637
+    second: RedStoneEnemy_1
   - first:
-      213: -5737340078313841079
-    second: Gun_2
+      213: -1606154533838014594
+    second: RedStoneEnemy_2
   - first:
-      213: 4827030598691977101
-    second: Gun_3
+      213: 2980261022830141695
+    second: RedStoneEnemy_3
   - first:
-      213: -1276914977702293978
-    second: Gun_4
+      213: -4774210394775883583
+    second: RedStoneEnemy_4
   - first:
-      213: 2353504299449603811
-    second: Gun_5
+      213: 2031353413939994980
+    second: RedStoneEnemy_5
   - first:
-      213: -1496922236697126485
-    second: Gun_6
+      213: 1976187624035733713
+    second: RedStoneEnemy_6
+  - first:
+      213: 5167255972661332499
+    second: RedStoneEnemy_7
+  - first:
+      213: 5157234504260434419
+    second: RedStoneEnemy_8
+  - first:
+      213: 7179738256796997631
+    second: RedStoneEnemy_9
+  - first:
+      213: 3011040494252972813
+    second: RedStoneEnemy_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +113,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,7 +125,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,7 +137,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +149,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -148,148 +160,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gun_0
+      name: RedStoneEnemy_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 8
+        y: 4
         width: 26
-        height: 16
-      alignment: 9
-      pivot: {x: 0.25670144, y: 0.6533029}
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 707efb4b8c9877f50800000000000000
-      internalID: 6879118450950661895
+      spriteID: e15a94510c4e3f1d0800000000000000
+      internalID: -3318056986799921890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gun_1
+      name: RedStoneEnemy_1
       rect:
         serializedVersion: 2
         x: 35
-        y: 8
+        y: 4
         width: 26
-        height: 16
-      alignment: 9
-      pivot: {x: 0.2616665, y: 0.6533029}
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cc8661c6c7b8a5e0800000000000000
-      internalID: -1898065178660533048
+      spriteID: d054a64968ae35730800000000000000
+      internalID: 3986787958889530637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gun_2
+      name: RedStoneEnemy_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 8
+        x: 68
+        y: 4
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77b33416fac5b9e0800000000000000
+      internalID: -1606154533838014594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedStoneEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0abb33c930c5920800000000000000
+      internalID: 2980261022830141695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedStoneEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0f768d0f89ebdb0800000000000000
+      internalID: -4774210394775883583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedStoneEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 4
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ab2bda21d03c10800000000000000
+      internalID: 2031353413939994980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedStoneEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d05c2c7c24dc6b10800000000000000
+      internalID: 1976187624035733713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedStoneEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a8ef90ee7c5b740800000000000000
+      internalID: 5167255972661332499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedStoneEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9b4d9157d229740800000000000000
+      internalID: 5157234504260434419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedStoneEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4
         width: 26
-        height: 16
-      alignment: 9
-      pivot: {x: 0.25670126, y: 0.6371658}
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94edd74b89fd060b0800000000000000
-      internalID: -5737340078313841079
+      spriteID: ff7daa897ed83a360800000000000000
+      internalID: 7179738256796997631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gun_3
+      name: RedStoneEnemy_10
       rect:
         serializedVersion: 2
-        x: 99
-        y: 8
-        width: 27
-        height: 16
-      alignment: 9
-      pivot: {x: 0.2513682, y: 0.64523435}
+        x: 323
+        y: 4
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d87f9fa31ce0df240800000000000000
-      internalID: 4827030598691977101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gun_4
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 8
-        width: 27
-        height: 16
-      alignment: 9
-      pivot: {x: 0.24658655, y: 0.6533029}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62ecda9d79c774ee0800000000000000
-      internalID: -1276914977702293978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gun_5
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 8
-        width: 28
-        height: 16
-      alignment: 9
-      pivot: {x: 0.23719461, y: 0.64523435}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e65c02e0b359a020800000000000000
-      internalID: 2353504299449603811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gun_6
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 8
-        width: 29
-        height: 19
-      alignment: 9
-      pivot: {x: 0.22399902, y: 0.5271784}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba9d841282dd93be0800000000000000
-      internalID: -1496922236697126485
+      spriteID: d0bd348506d59c920800000000000000
+      internalID: 3011040494252972813
       vertices: []
       indices: 
       edges: []

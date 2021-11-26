@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 3e0d70fd994948042b62e69c1295e887
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3555403412447748990
+    second: PistolIdle_0
+  - first:
+      213: 2669934507455360056
+    second: PistolIdle_1
+  - first:
+      213: 463116366466669112
+    second: PistolIdle_2
+  - first:
+      213: -3567153752693519055
+    second: PistolIdle_3
+  - first:
+      213: -5657026765157386709
+    second: PistolIdle_4
+  - first:
+      213: 1051828575657799043
+    second: PistolIdle_5
+  - first:
+      213: -2404789275840215773
+    second: PistolIdle_6
+  - first:
+      213: -1528485687396837462
+    second: PistolIdle_7
+  - first:
+      213: -4246934656123479566
+    second: PistolIdle_8
+  - first:
+      213: 8416150673977202050
+    second: PistolIdle_9
+  - first:
+      213: -4294351919533608231
+    second: PistolIdle_10
+  - first:
+      213: -2121183466276650300
+    second: PistolIdle_11
+  - first:
+      213: 4680682494804109991
+    second: PistolIdle_12
+  - first:
+      213: -159016506953044925
+    second: PistolIdle_13
+  - first:
+      213: -2293226482546642429
+    second: PistolIdle_14
+  - first:
+      213: 1894390108018895632
+    second: PistolIdle_15
+  - first:
+      213: 6642610966357335181
+    second: PistolIdle_16
+  - first:
+      213: -1695005925034521176
+    second: PistolIdle_17
+  - first:
+      213: -4716886016130949954
+    second: PistolIdle_18
+  - first:
+      213: 9086535638686728880
+    second: PistolIdle_19
+  - first:
+      213: -3151914590565928941
+    second: PistolIdle_20
+  - first:
+      213: -8608027338748642496
+    second: PistolIdle_21
+  - first:
+      213: -6315251252367256076
+    second: PistolIdle_22
+  - first:
+      213: -5513122674071817537
+    second: PistolIdle_23
+  - first:
+      213: -7954067207609560487
+    second: PistolIdle_24
+  - first:
+      213: -4601667696144221694
+    second: PistolIdle_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PistolIdle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709155, y: 0.66620076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c17d70f6ba8aec0800000000000000
+      internalID: -3555403412447748990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709182, y: 0.66620076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c2f62e9438d0520800000000000000
+      internalID: 2669934507455360056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.24856803, y: 0.65927577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a5ae0b1e15d6600800000000000000
+      internalID: 463116366466669112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709152, y: 0.65927577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d408fbf8cee7ec0800000000000000
+      internalID: -3567153752693519055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.24856861, y: 0.65927577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26bae911243e71b0800000000000000
+      internalID: -5657026765157386709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528305, y: 0.6454257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d20b84488d89e00800000000000000
+      internalID: 1051828575657799043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.24856861, y: 0.65927577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32500ed05e870aed0800000000000000
+      internalID: -2404789275840215773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528299, y: 0.65927577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa751769d5ab9cae0800000000000000
+      internalID: -1528485687396837462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.24856919, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9d6757e6bdf05c0800000000000000
+      internalID: -4246934656123479566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.24856919, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2855392827c2cc470800000000000000
+      internalID: 8416150673977202050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528311, y: 0.6454257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2beaf7ea56764c0800000000000000
+      internalID: -4294351919533608231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709182, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2062d30ea0092e0800000000000000
+      internalID: -2121183466276650300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.24856919, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa20310eef15f040800000000000000
+      internalID: 4680682494804109991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528311, y: 0.6454257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ce3a5545f0bcdf0800000000000000
+      internalID: -159016506953044925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528311, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302f9460aa2dc20e0800000000000000
+      internalID: -2293226482546642429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bea7e24c93a4a10800000000000000
+      internalID: 1894390108018895632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_16
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709182, y: 0.65927577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cd7d6da7b4f2c50800000000000000
+      internalID: 6642610966357335181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528311, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad822a77112a78e0800000000000000
+      internalID: -1695005925034521176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.24857037, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcd182d8214a8eb0800000000000000
+      internalID: -4716886016130949954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_19
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709182, y: 0.6454257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b289d6550cd91e70800000000000000
+      internalID: 9086535638686728880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_20
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528311, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31072f221662244d0800000000000000
+      internalID: -3151914590565928941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_21
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709182, y: 0.6385007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b39012eb42a8880800000000000000
+      internalID: -8608027338748642496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_22
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709182, y: 0.6454257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f51f431278bb58a0800000000000000
+      internalID: -6315251252367256076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_23
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528311, y: 0.65927577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb23cc043247d73b0800000000000000
+      internalID: -5513122674071817537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_24
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25709182, y: 0.6454257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95259d2640a7d9190800000000000000
+      internalID: -7954067207609560487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolIdle_25
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 8
+        width: 26
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2528311, y: 0.65235066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20afeec6c979320c0800000000000000
+      internalID: -4601667696144221694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -28,6 +28,11 @@ public class Movement2 : MonoBehaviour
     RaycastHit2D wallCheckHit;
     float jumpTime;
 
+    private bool isClimbing;
+    private float inputVertical;
+    public float climbSpeed = 8f;
+    public float ladderCheckDistance;
+    public LayerMask whatIsLadder;
 
     //private variables
     private float mx = 0f;
@@ -55,6 +60,32 @@ public class Movement2 : MonoBehaviour
             if (!isWallSliding)
             {
                 isWallJumped = false;
+            }
+
+            RaycastHit2D ladderHit = Physics2D.Raycast(transform.position, Vector2.up, ladderCheckDistance, whatIsLadder);
+
+            if (ladderHit.collider != null)
+            {
+                Debug.Log("Ladder detected");
+                if (Input.GetKey(KeyCode.W))
+                {
+                    isClimbing = true;
+                }
+            }
+            else
+            {
+                isClimbing = false;
+            }
+
+            if (isClimbing == true)
+            {
+                inputVertical = Input.GetAxisRaw("Vertical");
+                rb.velocity = new Vector2(rb.position.x, inputVertical * climbSpeed);
+                rb.gravityScale = 0;
+            }
+            else
+            {
+                rb.gravityScale = 1;
             }
         }
     }

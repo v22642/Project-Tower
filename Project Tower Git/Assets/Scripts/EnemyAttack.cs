@@ -3,14 +3,16 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    public float damage = 1f, punchForce = 10f, attackSpeed = 0.8f;
+    public float punchForce = 10f, attackSpeed = 0.8f;
+    public int damage = 1;
     private Coroutine dmg;
+    Rigidbody2D rb;
 
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Attack"))
         {
-            if(dmg == null)
+            if(dmg == null && !PlayerHealth.death)
             {
                 dmg = StartCoroutine(setDamage(other));
             }

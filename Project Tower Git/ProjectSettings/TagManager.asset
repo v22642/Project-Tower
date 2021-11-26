@@ -9,6 +9,7 @@ TagManager:
   - Attack
   - Fall
   - Enemy
+  - Health
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - Ground
   - PlayerAttack
   - Enemy
-  - 
-  - 
+  - Post-Processing
+  - Ladder
   - 
   - 
   - 
@@ -45,4 +46,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2942213345
+    locked: 0
+  - name: Ground
+    uniqueID: 3193599309
+    locked: 0
+  - name: Player
+    uniqueID: 1216111219
+    locked: 0
+  - name: Enemies
+    uniqueID: 2240868741
+    locked: 0
+  - name: Items
+    uniqueID: 166952319
+    locked: 0
+  - name: Canvas
+    uniqueID: 2568785141
     locked: 0
